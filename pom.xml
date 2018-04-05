@@ -34,14 +34,14 @@
         <version.edition>Enterprise</version.edition>
         <image.tag>latest</image.tag>
 
-        <dependency.alfresco-core.version>7.1</dependency.alfresco-core.version>
-        <dependency.alfresco-data-model.version>8.3</dependency.alfresco-data-model.version>
-        <dependency.alfresco-repository.version>6.41</dependency.alfresco-repository.version>
-        <dependency.alfresco-remote-api.version>6.27</dependency.alfresco-remote-api.version>
+        <dependency.alfresco-core.version>json-replace-rc2</dependency.alfresco-core.version>
+        <dependency.alfresco-data-model.version>json-replace-rc2</dependency.alfresco-data-model.version>
+        <dependency.alfresco-repository.version>json-replace-rc9</dependency.alfresco-repository.version>
+        <dependency.alfresco-remote-api.version>json-replace-rc3</dependency.alfresco-remote-api.version>
         <dependency.alfresco-hb-data-sender.version>1.0.7</dependency.alfresco-hb-data-sender.version>
 
-        <dependency.alfresco-enterprise-repository.version>6.24</dependency.alfresco-enterprise-repository.version>
-        <dependency.alfresco-enterprise-remote-api.version>6.19</dependency.alfresco-enterprise-remote-api.version>
+        <dependency.alfresco-enterprise-repository.version>json-replace-rc2</dependency.alfresco-enterprise-repository.version>
+        <dependency.alfresco-enterprise-remote-api.version>json-replace-rc1</dependency.alfresco-enterprise-remote-api.version>
 
         <dependency.alfresco-spring-encryptor.version>6.0</dependency.alfresco-spring-encryptor.version>
         <dependency.alfresco-enterprise-crypto.version>6.0</dependency.alfresco-enterprise-crypto.version>
