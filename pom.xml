@@ -36,7 +36,7 @@
 
         <dependency.alfresco-core.version>json-replace-rc2</dependency.alfresco-core.version>
         <dependency.alfresco-data-model.version>json-replace-rc2</dependency.alfresco-data-model.version>
-        <dependency.alfresco-repository.version>json-replace-rc9</dependency.alfresco-repository.version>
+        <dependency.alfresco-repository.version>json-replace-rc10</dependency.alfresco-repository.version>
         <dependency.alfresco-remote-api.version>json-replace-rc3</dependency.alfresco-remote-api.version>
         <dependency.alfresco-hb-data-sender.version>1.0.7</dependency.alfresco-hb-data-sender.version>
 
@@ -59,7 +59,7 @@
 
         <!-- Alfresco Share version -->
         <alfresco.share.version>6.0.a</alfresco.share.version>
-        <alfresco.alfresco-share-services.version>6.0.a</alfresco.alfresco-share-services.version>
+        <alfresco.alfresco-share-services.version>json-replace-rc1-SNAPSHOT</alfresco.alfresco-share-services.version>
 
         <!-- Alfresco GoogleDocs integration version -->
         <alfresco.googledocs.version>3.1.0-RC1</alfresco.googledocs.version>
