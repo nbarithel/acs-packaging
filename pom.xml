@@ -113,6 +113,8 @@
         <dependency.postgresql.version>42.2.5</dependency.postgresql.version>
         <dependency.mariadb.version>2.2.5</dependency.mariadb.version>
 
+        <dependency.activiti.version>5.23.0-SNAPSHOT</dependency.activiti.version>
+
         <!-- Private docker registry -->
         <image.registry>quay.io</image.registry>
     </properties>
@@ -150,6 +152,18 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-explorer</artifactId>
+                <version>${dependency.activiti.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-simple-workflow</artifactId>
+                <version>${dependency.activiti.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.alfresco</groupId>
                 <artifactId>alfresco-core</artifactId>
