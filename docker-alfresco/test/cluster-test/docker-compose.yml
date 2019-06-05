@@ -16,7 +16,6 @@ services:
                 -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
                 "
             JAVA_OPTS : "
-                -Dlocal.transform.service.enabled=false
                 -Dalfresco.port=6081
                 -Daos.baseUrlOverwrite=http://localhost:8082/alfresco/aos
                 -Ddb.driver=org.postgresql.Driver
@@ -38,6 +37,7 @@ services:
                 -Dsfs.url=http://shared-file-store:8099/
                 -Dshare.host=localhost
                 -Dmessaging.broker.url=\"failover:(tcp://activemq:61616)?timeout=3000&jms.useCompression=true\"
+                -Dlegacy.transform.service.enabled=${LEGACY_TRANSFORM_SERVICE_ENABLED}
                 -Dlocal.transform.service.enabled=${LOCAL_TRANSFORM_SERVICE_ENABLED}
                 -Dtransform.service.enabled=${TRANSFORM_SERVICE_ENABLED}
                 -Dcors.enabled=true
@@ -76,6 +76,7 @@ services:
                 -Dsfs.url=http://shared-file-store:8099/
                 -Dshare.host=localhost
                 -Dmessaging.broker.url=\"failover:(tcp://activemq:61616)?timeout=3000&jms.useCompression=true\"
+                -Dlegacy.transform.service.enabled=${LEGACY_TRANSFORM_SERVICE_ENABLED}
                 -Dlocal.transform.service.enabled=${LOCAL_TRANSFORM_SERVICE_ENABLED}
                 -Dtransform.service.enabled=${TRANSFORM_SERVICE_ENABLED}
                 -Dcors.enabled=true
@@ -114,6 +115,7 @@ services:
                 -Dsfs.url=http://shared-file-store:8099/
                 -Dshare.host=localhost
                 -Dmessaging.broker.url=\"failover:(tcp://activemq:61616)?timeout=3000&jms.useCompression=true\"
+                -Dlegacy.transform.service.enabled=${LEGACY_TRANSFORM_SERVICE_ENABLED}
                 -Dlocal.transform.service.enabled=${LOCAL_TRANSFORM_SERVICE_ENABLED}
                 -Dtransform.service.enabled=${TRANSFORM_SERVICE_ENABLED}
                 -Dcors.enabled=true
